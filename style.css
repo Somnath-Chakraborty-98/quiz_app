@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0b2856;
+}
+
+.container{
+    background: white;
+    width: 80%;
+    max-width: 600px;
+    height: 520px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1{
+    font-size: 25px;
+    color: blue;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.quizRes{
+    margin: 10%;
+    text-align: center;
+    display: none;
+}
+
+#res{
+    color: green;
+}
+
+.startQuiz{
+    margin: 30% auto;
+    display: block;
+    padding: 12px 24px;
+    width: auto; 
+    background: #0d4fb9;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.startQuiz:hover{
+background: #063074;
+}
+
+.quiz{
+    padding: 20px 0;
+    display: none;
+}
+
+.quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#answers{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+}
+
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform-origin: center;
+}
+
+.btn:hover {
+    background: #222;
+    color: white;
+    transform: scale(1.05);
+}
+
+.correct {
+  background-color: green;
+  color: white;
+  border-color: darkgreen;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+  border-color: darkred;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6; 
+}
+
+#nextBtn{
+    background: #0d4fb9;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    width: 160px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s;
+    transform-origin: center;
+    display: none;
+}
+
+#nextBtn:hover{
+    background-color: #0b2856;
+}
