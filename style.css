@@ -87,6 +87,15 @@ background: #063074;
     cursor: pointer;
     transition: all 0.3s;
     transform-origin: center;
+
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.btn.correct,
+.btn.wrong {
+    background-color: inherit;
 }
 
 .btn:hover {
@@ -96,15 +105,15 @@ background: #063074;
 }
 
 .correct {
-  background-color: green;
-  color: white;
-  border-color: darkgreen;
+  background-color: green !important;
+  color: white !important;
+  border-color: darkgreen !important;
 }
 
 .wrong {
-  background-color: red;
-  color: white;
-  border-color: darkred;
+  background-color: red !important;
+  color: white !important;
+  border-color: darkred !important;
 }
 
 .disabled {

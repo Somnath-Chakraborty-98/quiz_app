@@ -71,7 +71,7 @@ nextBtn.addEventListener('click', () => {
         questionDiv.style.display = "none";
         startQuiz.style.display = "block";
         quizResDiv.style.display = "block";
-        quizRes.innerText = score + "/" + questions.length;
+        quizRes.innerText = "Your Score " + score + "/" + questions.length;
         if (questions.length === score)
             quizRes.style.color = "green";
         else
